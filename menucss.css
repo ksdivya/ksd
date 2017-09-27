@@ -1,0 +1,458 @@
+body{
+ height:300px;
+margin:0px;
+position:relative;
+}
+
+#nav {
+	font: 12px/30px Helvetica, sans-serif;
+	text-align: center;
+}
+ 
+#nav a {
+	background: #444;
+	color: #fff;
+	margin-right: 30px;
+	width: 30px;
+	height: 30px;
+	float: left;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+}
+ 
+#nav a:hover {
+	background: #6fcbf3;
+}
+ 
+
+
+.inner, .body:hover .inner{
+-webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+
+a{
+cursor:pointer;
+text-decoration: none;
+color:grey;
+}
+
+div a:hover{
+color:white;
+}
+
+
+.inner {
+  width: 200px;
+ overflow: hidden;
+transition: 0.5s ease-out;
+}
+
+.body:hover .inner{
+margin-top: 0;
+}
+.design{
+  background-image:
+  url("https://www.organicsnewsbrasil.com.br/wp-content/uploads/2017/04/OFN9XN0.jpg");
+background-size:cover;
+width:1000px;
+height:500 px;
+ padding:250px;
+  margin: 0px;
+font-size: 20px;
+ font-family: 'Trebuchet MS',Helvetica,sans-serif;
+color:#ffffff;
+text-decoration:none;
+}
+
+.bg{
+  background-image:
+  url("http://www.misucell.com/data/out/6/IMG_112319.jpg");
+background-size:cover;
+width:700px;
+height:5000 px;
+ padding:250px;
+  margin: 0px;
+
+ font-family: 'Trebuchet MS',Helvetica,sans-serif;
+color:#ffffff;
+text-decoration:none;
+}
+
+
+.catalog{
+font: italic normal normal 32px/1.5em playfair display;
+font-family:italic;
+color:grey;
+margin-top: 21px;
+margin-bottom:21px;
+}
+
+h3{
+ font-family: 'Helvetiva', sans-serif;
+ color:#FFFFFF;
+}
+
+.h12
+{
+   border-bottom: 3px solid grey;
+    height: 0 !important;
+    min-height:0 !important;
+}
+
+.font_9
+{
+  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #756F63;
+ font-family: Helvetico,sans serif;
+}
+
+.txtnew
+{
+  margin: 0;
+ letter spacing: normal;
+
+}
+
+.menu1
+{
+ letter-spacing:0.05em;
+  color:#756F63;
+  font-family:Helvetica;
+  font-size: 19px;
+}
+
+.menu2
+{
+ letter-spacing:0.05em;
+  color:black;
+  font-family:Helvetica;
+  font-size:22px;
+}
+
+.img
+{
+  height:20px;
+  width: 20px;
+}
+
+.img1 img{
+position:absolute;
+}
+
+.img2 img{
+position:absolute;
+}
+
+.img3 img{
+position:absolute;
+}
+
+.img4 img{
+position:absolute;
+}
+
+.img5 img{
+position:absolute;
+}
+
+.img6 img{
+position:absolute;
+}
+
+.img7 img{
+position:absolute;
+}
+
+.img8 img{
+position:absolute;
+}
+
+.img1 img:nth-of-type(1)
+{
+   left: 0px;
+    top: 30px;
+-webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.img2 img:nth-of-type(1)
+{
+   left: 0px;
+    top: 30px;
+-webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.img3 img:nth-of-type(1)
+{
+   left: 0px;
+    top: 30px;
+-webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.img4 img:nth-of-type(1)
+{
+   left: 0px;
+    top: 30px;
+-webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.img5 img:nth-of-type(1)
+{
+   left: 0px;
+    top: 30px;
+-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.img6 img:nth-of-type(1)
+{
+   left: 0px;
+    top: 30px;
+-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.img7 img:nth-of-type(1)
+{
+   left: 0px;
+    top: 30px;
+-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.img8 img:nth-of-type(1)
+{
+   left: 0px;
+    top: 30px;
+-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.img1 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index: 5;
+}
+
+.img2 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    y-index: 5;
+}
+
+.img3 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    y-index: 5;
+}
+
+.img4 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    y-index: 5;
+}
+
+.img5 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index: 5;
+}
+
+.img6 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index: 5;
+}
+
+.img7 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index: 5;
+}
+
+.img8 img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index: 5;
+}
+
+.img1 img:hover {
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(380deg) scale(1.5);
+    z-index: 5;
+}
+
+.img2 img:hover {
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(380deg) scale(1.5);
+    y-index: 5;
+}
+
+.img3 img:hover {
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(380deg) scale(1.5);
+    y-index: 5;
+}
+
+.img4 img:hover {
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(380deg) scale(1.5);
+    y-index: 5;
+}
+
+.img5 img:hover {
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(380deg) scale(1.5);
+    y-index: 5;
+}
+
+.img6 img:hover {
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(380deg) scale(1.5);
+    y-index: 5;
+}
+
+.img7 img:hover {
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(380deg) scale(1.5);
+    y-index: 5;
+}
+
+.img8 img:hover {
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(380deg) scale(1.5);
+    y-index: 5;
+}
+
+
+.img1 img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 5px 5px 10px 5px;
+    background: white;
+    border: solid 1px black;
+}
+
+.img2 img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 5px 5px 10px 5px;
+    background: white;
+    border: solid 1px black;
+}
+
+.img3 img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 5px 5px 10px 5px;
+    background: white;
+    border: solid 1px black;
+}
+
+.img4 img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 5px 5px 10px 5px;
+    background: white;
+    border: solid 1px black;
+}
+
+.img5 img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 5px 5px 10px 5px;
+    background: white;
+    border: solid 1px black;
+}
+
+.img6 img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 5px 5px 10px 5px;
+    background: white;
+    border: solid 1px black;
+}
+
+.img7 img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 5px 5px 10px 5px;
+    background: white;
+    border: solid 1px black;
+}
+
+.img8 img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 5px 5px 10px 5px;
+    background: white;
+    border: solid 1px black;
+}
